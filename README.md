@@ -1,1 +1,5 @@
 # patientscheduler
+
+This would be a patient databasing app. It'd be a scheduling application that keeps track of patients, associating them with a specific day and time. You could return a specific day's schedule or a week's schedule. When an appointment is done, user is prompted to reschedule. If reschedule is declined, the patient is added to a specific list that's for unscheduled. That list should be easily pulled up. As far as using a new technology, we should use Mandrill to email reminders two days before, and then a followup "How was your experience?" sent at the end of the day. The application would, at the close of business hours, prompt you to tell it if anyone didn't show. it would drop the noshows into the unscheduled database and send them a "You missed your day, call to reschedule." At the end time of a scheduled appointment, the app will queue up a "Did this person show up?" that can be answered at will of the user.
+
+The whole thing would have a front end that would allow a user to graphically select a day to further examine and allow the entry of a specific date to focus on. The front end will land on that day's schedule. 
